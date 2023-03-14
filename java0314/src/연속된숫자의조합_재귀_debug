@@ -1,0 +1,34 @@
+n=4 m=2 arr[2]
+combination(0,1) //cnt=0, start=1
+	for (1~4)
+		arr[0] = 1;		//i=1
+		combination(1,2); //cnt=1 start=2
+			for(2~4) 
+				arr[1]=2;  //cnt=1 i=2
+				combination(2, 3);
+					sysout [1,2]
+				arr[1]=3;	//cnt=1 i=3
+				combination(2, 4);
+					sysout [1,3]
+				arr[1]=4; 	//cnt=1 i=4
+				combination(2,5);
+					sysout [1,4]
+		arr[0] = 2; //i=2
+		combination(1,3); //cnt=1 start=3
+			for(3~4)
+				arr[1]=3
+				combination(2, 4)
+					sysout [2,3]
+				arr[1]=4
+				combination(2,5)
+					sysout [2,4]
+		arr[0] = 3; //i=3
+		combination(1,4);
+			for(4~4)
+				arr[1]=4;
+				combination(2,5)
+					sysout [3,4]
+		arr[0] = 4; //i=4
+		combination(1,5);
+			
+				

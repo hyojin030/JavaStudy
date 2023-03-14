@@ -7,8 +7,8 @@ public class ExamString {
 		String s4 = new String("Hello");		
 		String s2 = "Hello"; // String literal
 		String s3 = "Hello";
-		s2 += '!';
-		System.out.println(s3);
+		s1 += '!';
+		System.out.println(s1);
 	}
 
 }

@@ -8,6 +8,7 @@ public class ExamArray {
 		//System.out.println(arr); //바로쓰면 오류
 		arr = new int[3];
 		System.out.println(arr);
+		System.out.println(arr[0]);
 		
 		int[] arr2 = new int[3]; //초기화 (0으로)
 		System.out.println(arr2[0]);

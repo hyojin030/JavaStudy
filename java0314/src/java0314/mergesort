@@ -1,0 +1,30 @@
+x = [6,4,3,7,1,9,8]
+
+mergeSort(x,7);
+__mergesort(x,0,6)
+	center = (0+6)/2=3;
+	__mergesort(x,0,3)
+		center = 1;
+		__mergesort(x,0,1)
+			center = 0;
+			__mergesort(x,0,0);
+			__mergesort(x,1,1);
+			p = 0, j = 0, k = 0;
+			for(i=0;i<=0;i++) buffer[p++] = x[i];  //p=1, i=1, buffer[0]=x[0]
+			while(i<=1 && j<p) //=(1<=1 && 0<1)
+				a[k++] = (buffer[j]<=a[i]) ? buffer[j++]:a[i++];
+				//k=1; x[0] = (buffer[0]<=x[1])?buffer[0]:x[1]; //i=2;
+			while (j<p) // 0<1
+				a[k++]=buffer[j++]; a[1]=buffer[0], k=2 j=1
+		__mergesort(x,2,3)
+			center = 2;
+			__mergesort(x,2,2);
+			__mergesort(x,3,3);
+			p=0,j=0,k=2;
+			for(i=2;i<=2;i++) buffer[p++] = x[i]; //p=1, buffer[0] = x[2] //i=3
+			while(i<=3 && j<p) //=(3<=3 && 0<1)
+				a[k++] = (buffer[j]<=a[i]) ? buffer[j++]:a[i++];
+				//k=3; x[2] = (buffer[0]<=x[3])?buffer[0]:x[3]; //i=2;
+			while (j<p) // 0<1
+				a[k++]=buffer[j++]; a[1]=buffer[0], k=2 j=1
+	__mergesort(x,4,6)

@@ -15,6 +15,12 @@ public class ExamArray {
 	int[][] arr4 = new int[][] {{1,2},{3,4,5,6}};
 	//arr3->2차원배열변수  arr3[0]->1차원배열변수
 	
+	String[][] arr5 = new String[2][2];
+	int[][] arr6 = new int[2][2];
+	
+	System.out.println(arr5[0]);
+	System.out.println(arr6[0][0]);
+	
 	for (int is : arr2) {
 		System.out.println(is);
 		}
